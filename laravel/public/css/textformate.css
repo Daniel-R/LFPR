@@ -1,0 +1,272 @@
+/*Alle Seiten (oder allen bis auf Login)*/
+body {
+    background-color: #bdf;
+    margin:           0;
+}
+
+ul {
+    list-style-type: none;
+    float:           left;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #000000;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+#seite {
+    position:           relative;
+    min-height:         100px;
+    width:              100%;
+    background-color:   #48f;
+    margin:             0;
+    padding:            0;
+
+    border:             2px solid #000000;
+    border-right-width: 0;
+    border-left-width:  0;
+}
+
+#logo {
+    margin-left: 5px;
+    margin-top:  5px;
+    height:      99px;
+    width:       509px;
+    float:       left;
+}
+
+.brecher {
+    clear: both;
+}
+
+#kopfRahmen {
+    position:                relative;
+    height:                  101px;
+    border-top-left-radius:  8px;
+    border-top-right-radius: 8px;
+    background-color:        #bdf;
+}
+
+#kopf {
+    position:    relative;
+    bottom:      1px;
+    top:         51px;
+    height:      50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:   16px;
+    text-align:  center;
+}
+
+.kopfTab {
+    float:     left;
+    margin:    17px 5px 17px 5px;
+    padding:   6px 2px 6px 2px;
+    min-width: 60px;
+    height:    14px;
+}
+
+.kopfTabGewaehlt {
+    float:            left;
+    background-color: #48f;
+    margin:           17px 5px 17px 5px;
+    padding:          6px 2px 6px 2px;
+    min-width:        60px;
+    height:           14px;
+
+}
+
+#fussRahmen {
+    position:                   relative;
+    height:                     100%;
+    border-bottom-left-radius:  8px;
+    border-bottom-right-radius: 8px;
+    background-color:           #bdf;
+}
+
+#fuss {
+    position:     relative;
+    width:        1100px;
+    height:       60px;
+    top:          3px;
+    margin:       0 auto;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size:    14px;
+    text-align:   center;
+    font-style:   normal;
+    font-variant: normal;
+}
+
+.fussTab {
+    position:  relative;
+    float:     left;
+    margin:    17px 5px;
+    padding:   6px 2px 6px 2px;
+    min-width: 40px;
+    height:    14px;
+}
+
+.teiler {
+    position:         relative;
+    margin:           17px auto;
+    height:           26px;
+    width:            1px;
+    background-color: #00008b;
+    float:            left;
+}
+
+/*Login.html und starteSuche.html*/
+
+#seiteninhaltKlein {
+    position:         relative;
+    width:            1080px;
+    min-height:       100px;
+    border:           1px solid #000000;
+    border-radius:    10px 10px;
+    padding:          10px;
+    margin:           20px auto 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+/*Login.html*/
+
+#loginDaten {
+    position:   relative;
+    margin:     auto auto;
+    width:      300px;
+    min-height: 40px;
+}
+
+#loginButton {
+    position: relative;
+    margin:   5px 0 0 0;
+}
+
+.loginInfo {
+    float: left;
+    width: 200px;
+}
+
+.loginEingabe {
+    float: left;
+    left:  150px;
+}
+
+/*neueSuche.html*/
+
+#sucheStarten {
+    width:  700px;
+    margin: 0 auto;
+}
+
+.infoSuche {
+    float: left;
+    width: 200px;
+}
+
+.infoSuchmaschine {
+    float:      left;
+    width:      200px;
+    height:     120px;
+    margin-top: 0;
+}
+
+.eingabeSuchmaschine {
+    left:   200px;
+    height: 15px;
+}
+
+/*alle ergebnis***.html*/
+
+#seiteninhaltSuchergebnis {
+    position:   relative;
+    width:      1100px;
+    min-height: 100px;
+    padding:    0 10px 10px 10px;
+    margin:     20px auto;
+}
+
+#ergebnisLegende {
+    position:         relative;
+    width:            80%;
+    left:             5%;
+    min-height:       90px;
+    border:           1px solid #000000;
+    float:            left;
+    margin-bottom:    8px;
+    background-color: rgb(255, 255, 255);
+}
+
+#legendeOben {
+    width:  100%;
+    height: 49%;
+}
+
+#legendeUnten {
+    width:  100%;
+    height: 49%;
+}
+
+.legende {
+    margin:  8px 5px;
+    padding: 0;
+    width:   47%;
+    float:   left;
+}
+
+/*#domaene {*/
+/*}*/
+
+/*#Suchmaschine {*/
+/*}*/
+
+/*#Schlagworte {*/
+/*}*/
+
+/*#Resultate {*/
+/*}*/
+
+#export {
+    min-width:  60px;
+    min-height: 50px;
+    margin:     4px 4px 4px 4px;
+    padding:    0 4px 4px 4px;
+    position:   relative;
+    float:      left;
+    left:       5%;
+}
+
+.exportDateiTyp {
+    width:  20px;
+    height: 20px;
+    float:  left;
+    margin: 0 0 0 0;
+}
+
+#exportHeadline {
+    margin: 6px 0;
+    color:  rgb(255, 255, 255);
+}
+
+#ergebnisTabelleBox {
+    width:            1100px;
+    min-height:       100px;
+    border:           1px solid #000000;
+    clear:            both;
+    background-color: rgb(255, 255, 255);
+}
+
+#ergebnisTabelle {
+    width:      1100px;
+    min-height: 100px;
+}
+
+thead {
+    font-size: 14px;
+}
